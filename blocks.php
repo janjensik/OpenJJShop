@@ -22,7 +22,7 @@ and open the template in the editor.
         <div class="blok"><p><img src="img/ultegra.jpg" width="256" height="192" alt="Sada Ultegra"/></p><p>Sada Ultegra 6700 16900 Kč</p></div>
         <div class="blok"><p><img src="img/x0red.jpg" width="256" height="192" alt="Sada SRAM X0"/></p><p>Sada SRAM X0 RED 2x10 22450 Kč</p></div>
         <div class="blok"><p><img src="img/xt.jpg" width="256" height="192" alt="Sada Shimano XT Dyna Sys"/></p><p>Sada Shimano XT Dyna Sys 10sp bez brzd 8900 Kč</p></div>
-        
+        <div style="clear: both"></div>
        <?php include ("footer.php");?>
              
     </body>
