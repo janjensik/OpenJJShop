@@ -12,15 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
     <body>
-         <div style="padding-top:1px; height: 160px; background-color: #00AEED; border-radius: 10px;"><p style="margin-left: 250px; font-family: serif; font-size: 40px; color: white;">OpenJJShop</p>
-             
-            <span style="margin-left: 30px;">
-            <span class="menu"><a href="index.xhtml"><span class="menu_font">Home</span></a></span>        
-            <span class="menu"><a href="aboutus.xhtml"><span class="menu_font">O nás</span></a></span>
-            <span class="menu"><a href="blocks.xhtml"><span class="menu_font">Bloky</span></a></span>
-            <span class="menu"><a href="table.xhtml"><span class="menu_font">Tabulka</span></a></span>
-            </span>
-        </div>
+         <?php include ("header_menu.php");?>
         
          <table class="sample">
             <tr><td>obrazek</td><td>nazev</td><td>popis</td><td>cena</td></tr>            
@@ -34,17 +26,7 @@ and open the template in the editor.
             <tr><td><img src="img/xt.jpg" width="256" height="192" alt="Sada Shimano XT Dyna Sys"/></td><td>Sada Shimano XT Dyna Sys 10sp bez brzd</td><td>Novinková sada Shimano XT využívá systém Dyna Sys, který kromě 10 rychlostní kazety přináší lepší efektivitu přenosu síly. Kazeta s 34 nebo 36 zuby snižuje nutnost použití malého převodníku a tím dochází k menšímu křížení řetězu i jeho nižšímu namáhání.</td><td>8900 Kč</td></tr>
         </table>
         
-        <hr></hr>
-        <div>E-shop pro výukové účely &#169; Jan Jenšík</div>
-        <p>  
-    <a href="http://validator.w3.org/check?uri=referer"><img
-      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+        <?php include ("footer.php");?>
         
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Ověřit CSS!" />
-    </a>
-    </p> 
     </body>
 </html>

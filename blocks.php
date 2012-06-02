@@ -12,15 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
     <body>
-        <div style="padding-top:1px; height: 160px; background-color: #00AEED; border-radius: 10px;"><p style="margin-left: 250px; font-family: serif; font-size: 40px; color: white;">OpenJJShop</p>
-             
-            <span style="margin-left: 30px;">
-            <span class="menu"><a href="index.xhtml"><span class="menu_font">Home</span></a></span>        
-            <span class="menu"><a href="aboutus.xhtml"><span class="menu_font">O nás</span></a></span>
-            <span class="menu"><a href="blocks.xhtml"><span class="menu_font">Bloky</span></a></span>
-            <span class="menu"><a href="table.xhtml"><span class="menu_font">Tabulka</span></a></span>
-            </span>
-        </div>
+        <?php include ("header_menu.php");?>
         
         <div class="blok"><p><img src="img/red.jpg" width="256" height="192" alt="Sada SRAM Red"/></p><p>Sada SRAM Red 2012 43900 Kč</p></div>
         <div class="blok"><p><img src="img/duraace.jpg" width="256" height="192" alt="Sada Dura Ace"/></p><p>Sada Dura Ace 7900 33900 Kč</p></div>
@@ -31,20 +23,7 @@ and open the template in the editor.
         <div class="blok"><p><img src="img/x0red.jpg" width="256" height="192" alt="Sada SRAM X0"/></p><p>Sada SRAM X0 RED 2x10 22450 Kč</p></div>
         <div class="blok"><p><img src="img/xt.jpg" width="256" height="192" alt="Sada Shimano XT Dyna Sys"/></p><p>Sada Shimano XT Dyna Sys 10sp bez brzd 8900 Kč</p></div>
         
-        <div style="clear: both">
-        <hr></hr>
-        <div>E-shop pro výukové účely &#169; Jan Jenšík</div>
-        </div>
-        <p>  
-    <a href="http://validator.w3.org/check?uri=referer"><img
-      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
-        
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Ověřit CSS!" />
-    </a>
-    </p> 
+       <?php include ("footer.php");?>
              
     </body>
 </html>
