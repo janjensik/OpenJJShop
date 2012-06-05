@@ -5,8 +5,9 @@
             <?php
 
 foreach ($menu as $key => $link) 
-      { 
-        echo "<span class=\"menu\"><a href=\"$link\"><span class=\"menu_font\">$key</span></a></span>";        
+      { ?>
+        <span class="menu"><a href="<?php echo $link;?>"><span class="menu_font"><?php echo $key;?></span></a></span> 
+        <?php
       } 
 
 ?>

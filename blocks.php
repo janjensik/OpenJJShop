@@ -17,7 +17,9 @@ and open the template in the editor.
         include ("config.php");
         
         foreach ($zbozi as $sada){
-            echo "<div class=\"blok\"><p><img src=\"$img_dir/$sada[imgfile]\" width=\"256\" height=\"192\" alt=\"$sada[nazev]\"/></p><p>$sada[cena]</p></div>";
+            ?>
+            <div class="blok"><p><img src=<?php echo "$img_dir/$sada[imgfile]"?> width="256" height="192" alt=<?php "$sada[nazev]"?>/></p><p><?php echo "$sada[cena]"?></p></div>
+            <?php
         }
         ;?>
         

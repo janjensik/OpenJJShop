@@ -19,8 +19,10 @@ and open the template in the editor.
             <?php            
                 include ("config.php");
               
-                foreach ($zbozi as $sada) {                    
-                        echo "<tr><td><img src=\"$img_dir/$sada[imgfile]\"width=\"256\" height=\"192\" alt=\"$sada[nazev]\"/></td><td>$sada[nazev]</td><td>$sada[popis]</td><td>$sada[cena]</td></tr>"; 
+                foreach ($zbozi as $sada) {
+                    ?>
+                        <tr><td><img src="<?php echo "$img_dir/$sada[imgfile]";?> "width="256" height="192" alt="<?php echo "$sada[nazev]";?>"/></td><td><?php echo "$sada[nazev]";?></td><td><?php echo "$sada[popis]";?></td><td><?php echo "$sada[cena]";?></td></tr>
+                        <?php
                 }
             
             ?>
