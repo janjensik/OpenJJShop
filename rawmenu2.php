@@ -5,9 +5,7 @@ include ("config.php");
 foreach ($menu as $key => $link) 
       { 
         echo " ";
-        echo "<a href='$link'>";        
-        echo $key;        
-        echo"</a>";
+        echo "<span class=\"menu\"><a href=\"$link\"><span class=\"menu_font\">$key</span></a></span>";        
       } 
 
 ?>
