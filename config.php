@@ -2,10 +2,10 @@
 
 $img_dir = "img";
 
-$menu = array("Home" => "index.php",
-              "O nás" => "aboutus.php",
-              "Bloky" => "blocks.php",
-              "Tabulka" => "table.php");
+$menu = array("Home" => "home",
+              "O nás" => "aboutus",
+              "Bloky" => "blocks",
+              "Tabulka" => "table");
 
 $zbozi = array(
              array(
