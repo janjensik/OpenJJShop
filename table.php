@@ -20,7 +20,7 @@ and open the template in the editor.
                 include ("config.php");
               
                 foreach ($zbozi as $sada) {                    
-                        echo "<tr><td><img src=\"$img_dir/$sada[imgfile]\" width=\"256\" height=\"192\" alt=\"$sada[nazev]\"/></td><td>Sada SRAM Red 2012</td><td>$sada[popis]</td><td>$sada[cena]</td></tr>"; 
+                        echo "<tr><td><img src=\"$img_dir/$sada[imgfile]\"width=\"256\" height=\"192\" alt=\"$sada[nazev]\"/></td><td>$sada[nazev]</td><td>$sada[popis]</td><td>$sada[cena]</td></tr>"; 
                 }
             
             ?>
