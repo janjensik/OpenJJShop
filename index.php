@@ -6,6 +6,6 @@ if (in_array($_REQUEST['q'],$menu)) {
    include($_REQUEST['q'].".php");
 }
  else {
-   include ("eror404.php"); 
+   include ("error404.php"); 
 }
 ?>
