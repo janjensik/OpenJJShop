@@ -5,9 +5,9 @@
             <span style="margin-left: 30px;">           
             <?php
 
-foreach ($menu as $key => $link) 
+foreach ($menu as $key => $page) 
       { ?>
-        <span class="menu"><a href="<?php echo "index.php?q=$link";?>"><span class="menu_font"><?php echo $key;?></span></a></span> 
+        <span class="menu"><a href="<?php echo "index.php?q=$page";?>"><span class="menu_font"><?php echo $key;?></span></a></span> 
         <?php
       } 
 
