@@ -13,8 +13,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        include ("header_menu.php");
-        include ("config.php");
+        include "header_menu.php";
+        include "config.php";
         
         foreach ($zbozi as $sada){
             ?>
@@ -24,7 +24,7 @@ and open the template in the editor.
         ;?>
         
        <div style="clear: both"></div>
-       <?php include ("footer.php");?>
+       <?php include "footer.php";?>
              
     </body>
 </html>

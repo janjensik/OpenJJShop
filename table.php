@@ -12,12 +12,12 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
     <body>
-         <?php include ("header_menu.php");?>        
+         <?php include "header_menu.php";?>        
          <table class="sample">
             <tr><td>obrazek</td><td>nazev</td><td>popis</td><td>cena</td></tr>
             
             <?php            
-                include ("config.php");
+                include "config.php";
               
                 foreach ($zbozi as $sada) {
                     ?>
@@ -29,7 +29,7 @@ and open the template in the editor.
             
         </table>
         
-        <?php include ("footer.php");?>
+        <?php include "footer.php";?>
         
     </body>
 </html>

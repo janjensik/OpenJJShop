@@ -14,8 +14,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        include ("header_menu.php"); 
-        include ("footer.php");
+        include "header_menu.php"; 
+        include "footer.php";
         ?>   
       </body>
 </html>

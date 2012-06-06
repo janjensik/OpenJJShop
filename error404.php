@@ -13,14 +13,14 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        include ("header_menu.php");
-        include ("config.php");    
+        include "header_menu.php";
+        include "config.php";    
         ;?>
         <span><h3><p>Chyba 404</p><p>Stránka<i><?php echo " $_REQUEST[q] ";?></i>nenalezena</p></h3></span>
 
         
        <div style="clear: both"></div>
-       <?php include ("footer.php");?>
+       <?php include "footer.php";?>
              
     </body>
 </html>
