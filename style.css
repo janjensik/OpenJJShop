@@ -9,8 +9,26 @@
 root { 
     display: block;
 }
-a:link, a:visited {text-decoration: none; color: white;}
-a:hover{color: silver;} 
+.logo:link, .logo:visited {text-decoration: none; color: white;}
+
+.header{
+    padding-top:1px;
+    height: 160px;
+    background-color: #00AEED;
+    border-radius: 10px;
+}
+.logo_design{
+    margin-left: 250px;
+    font-family: serif;
+    font-size: 40px;
+    color: white;
+}
+
+.menu_odkaz:link, .menu_odkaz:visited {text-decoration: none; color: white;}
+.menu_odkaz:hover{color: silver;}
+
+.mail:link, .mail:visited {text-decoration: none; color: black;}
+.mail:hover{color: silver;}
 
 .blok{
     width: 256px;
