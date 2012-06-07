@@ -16,7 +16,7 @@ and open the template in the editor.
         
         <div>Jsme malý výukový eshop, sloužící ke studijním účelům. Doufáme, že se snadno naučíme vytvářet podobné a lepší e-shopy podle požadavků a přání
         zákazníků. Nabízíme k fiktivnímu prodeji reálné cyklistické sady.</div>
-        <div>V případě dotazů, či připomínek pište na můj <a href="mailto:j.jensik@centrum.cz">mail</a>.</div>
+        <div>V případě dotazů, či připomínek pište na můj <a class="mail" href="mailto:j.jensik@centrum.cz">mail</a>.</div>
         
         <?php include "footer.php";?>
     </body>
