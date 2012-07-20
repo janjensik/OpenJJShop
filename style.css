@@ -1,11 +1,3 @@
-/* 
-    Document   : style
-    Created on : 31.5.2012, 14:32:02
-    Author     : Orbis
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
 root { 
     display: block;
 }
@@ -40,14 +32,14 @@ root {
     border-radius: 10px;
 }
 .menu { 
-        margin-left: 3px;
-        height: 20px;
-        width: 150px;
-        padding: 3px;   
-        background:#00AEED;
-        border:1px solid #2D73B9;
-        text-align: center;        
-        border-radius: 10px;                     
+    margin-left: 3px;
+    height: 20px;
+    width: 150px;
+    padding: 3px;   
+    background:#00AEED;
+    border:1px solid #2D73B9;
+    text-align: center;        
+    border-radius: 10px;                     
 }
 .menu_font {   
     font-family: sans-serif;
@@ -55,25 +47,28 @@ root {
     padding: 20px;        
 }
 table.sample {
-	border-width: 1px;
-	border-spacing: 0px;
-	border-style: outset;
-	border-color: gray;
-	border-collapse: separate;
-	background-color: white;
-        margin: 2px;       
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: gray;
+    border-collapse: separate;
+    background-color: white;
+    margin: 2px;       
 }
 table.sample th {
-	border-width: 1px;
-	padding: 4px;
-	border-style: inset;
-	border-color: gray;
-	background-color: white;	
+    border-width: 1px;
+    padding: 4px;
+    border-style: inset;
+    border-color: gray;
+    background-color: white;	
 }
 table.sample td {
-	border-width: 1px;
-	padding: 4px;
-	border-style: inset;
-	border-color: gray;
-	background-color: white;	
+    border-width: 1px;
+    padding: 4px;
+    border-style: inset;
+    border-color: gray;
+    background-color: white;	
+}
+.error {
+    font-size: 18pt;
 }
