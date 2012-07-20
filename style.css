@@ -8,6 +8,7 @@ root {
     height: 160px;
     background-color: #00AEED;
     border-radius: 10px;
+    font-size: 18pt;
 }
 .logo_design{
     margin-left: 250px;
@@ -68,7 +69,4 @@ table.sample td {
     border-style: inset;
     border-color: gray;
     background-color: white;	
-}
-.error {
-    font-size: 18pt;
 }
