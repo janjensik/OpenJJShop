@@ -1,1 +1,5 @@
 /nbproject/private/
+/cache/
+/templates_c/
+!/cache/README
+!/templates_c/README
