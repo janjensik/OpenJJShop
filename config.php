@@ -5,7 +5,10 @@ $img_dir = "img";
 $menu = array("Home" => "home",
     "O nás" => "aboutus",
     "Bloky" => "blocks",
-    "Tabulka" => "table");
+    "Tabulka" => "table",
+    "aaa" => "aaa",
+    "bbb" => "bbb",
+    "ccc" => "ccc");
 
 $zbozi = array(
     array(
