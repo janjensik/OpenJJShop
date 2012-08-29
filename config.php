@@ -1,16 +1,15 @@
 <?php
 
 $img_dir = "img";
+$smarty->assign("img_dir", $img_dir);
 
 $menu = array("Home" => "home",
     "O nás" => "aboutus",
     "Bloky" => "blocks",
-    "Tabulka" => "table",
-    "aaa" => "aaa",
-    "bbb" => "bbb",
-    "ccc" => "ccc");
+    "Tabulka" => "table");
+$smarty->assign("menu", $menu);
 
-$zbozi = array(
+$smarty->assign("zbozi",  array(
     array(
         "nazev" => "Sada SRAM Red",
         "imgfile" => "red.jpg",
@@ -58,6 +57,9 @@ $zbozi = array(
         "imgfile" => "xt.jpg",
         "popis" => "Novinková sada Shimano XT využívá systém Dyna Sys, který kromě 10 rychlostní kazety přináší lepší efektivitu přenosu síly. Kazeta s 34 nebo 36 zuby snižuje nutnost použití malého převodníku a tím dochází k menšímu křížení řetězu i jeho nižšímu namáhání.",
         "cena" => "8900 Kč"
-    ),
-);
+    )));
+    
+
+
+
 ?>

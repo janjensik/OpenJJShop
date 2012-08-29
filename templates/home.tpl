@@ -5,14 +5,14 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>menu</title>
+        <title>Home</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>           
 
     </head>
     <body>
-        <?php
-        include "header_menu.php";
-        include "footer.php";
-        ?>   
+        
+        {include file='header_menu.tpl'}
+        {include file='footer.tpl'}
+           
     </body>
 </html>

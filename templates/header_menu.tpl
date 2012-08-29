@@ -8,18 +8,17 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
     <body>
-        <?php include "config.php"; ?>
+        
 
         <div class="header"><p class="logo_design"><a class="logo" href="index.php">OpenJJShop</a></p>
 
-            <span style="margin-left: 30px;">           
-                <?php
-                foreach ($menu as $key => $page) {
-                    ?>
-                    <span class="menu"><a class="menu_odkaz" href="<?php echo "index.php?q=$page"; ?>"><span class="menu_font"><?php echo $key; ?></span></a></span> 
-                    <?php
-                }
-                ?>
+            <span style="margin-left: 30px;">      
+               
+          <ul>
+               {foreach from=$menu  key=name item=link}
+             <span class="menu"><a class="menu_odkaz" href="index.php?q={$link}"><span class="menu_font">{$name}</span></a></span>
+            {/foreach}
+           </ul>
             </span>
         </div>
 
