@@ -26,7 +26,7 @@ if (!isset($_REQUEST['q']))
 if (in_array($_REQUEST['q'], $menu)) {
     $smarty->display($_REQUEST['q'] . ".tpl");    
 } else {
-    include "error404.php";
+    include "templates/error404.tpl";
     
 }
 

@@ -7,6 +7,7 @@ $menu = array("Home" => "home",
     "O nás" => "aboutus",
     "Bloky" => "blocks",
     "Tabulka" => "table");
+    
 $smarty->assign("menu", $menu);
 
 $smarty->assign("zbozi",  array(
