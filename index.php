@@ -13,21 +13,17 @@ $smarty = new Smarty;
 
 //$smarty->force_compile = true;
 $smarty->debugging = FALSE;
-$smarty->caching = true;
+$smarty->caching = FALSE;
 $smarty->cache_lifetime = 120;
-
-  
-//$smarty->display('aaa.tpl');
 
 include "config.php";
 
 if (!isset($_REQUEST['q']))
     $_REQUEST['q'] = "home";
-if (in_array($_REQUEST['q'], $menu)) {
-    $smarty->display($_REQUEST['q'] . ".tpl");    
-} else {
-    include "templates/error404.tpl";
     
+if (in_array($_REQUEST['q'], $menu)){
+$smarty->assign("page", $_REQUEST['q']);
+$smarty->display("layout.tpl");
+$smarty->clearCache("page", $_REQUEST['q']);
 }
-
 ?>

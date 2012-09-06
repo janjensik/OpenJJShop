@@ -8,8 +8,7 @@
         <title>table</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
-    <body>
-        {include file='header_menu.tpl'}       
+    <body>               
         <table class="sample">
             <tr><td>obrázek</td><td>název</td><td>popis</td><td>cena</td></tr>
 
@@ -17,10 +16,7 @@
                <tr><td><img src="{$img_dir}/{$item.imgfile}" width="256" height="192" alt="{$item.nazev}" </img><td>{$item.nazev}</td><td>{$item.popis}</td><td>{$item.cena}</td></tr>
            {/foreach}
                      
-
-        </table>
-
-        {include file='footer.tpl'}
+        </table>       
 
     </body>
 </html>

@@ -8,10 +8,8 @@
         <title>blocks</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
-    <body>
-        {include file='header_menu.tpl'} 
-       
-
+    <body>  
+        
        <ul>
            {foreach from=$zbozi key=key item=item} 
                
@@ -20,7 +18,6 @@
            </ul>
 
         <div style="clear: both"></div>
-        {include file='footer.tpl'}
-
+        
     </body>
 </html>

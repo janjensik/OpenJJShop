@@ -10,7 +10,7 @@
     </head>
     <body>
         {include file='header_menu.tpl'}
-        <span class="header"><p>Chyba 404</p><p>Stránka<i>{$REQUEST[q]}</i>nenalezena</p></span>
+        <span class="header"><p>Chyba 404</p><p>Stránka<i> </i>nenalezena.</p></span>
 
 
         <div style="clear: both"></div>

@@ -9,10 +9,6 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>           
 
     </head>
-    <body>
-        
-        {include file='header_menu.tpl'}
-        {include file='footer.tpl'}
-           
+    <body>    
     </body>
 </html>
