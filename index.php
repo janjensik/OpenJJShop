@@ -26,4 +26,12 @@ $smarty->assign("page", $_REQUEST['q']);
 $smarty->display("layout.tpl");
 $smarty->clearCache("page", $_REQUEST['q']);
 }
+
+if (!in_array($_REQUEST['q'], $menu)){
+$smarty->assign("page_request", $_REQUEST['q']);
+    $_REQUEST['q'] = "error404";
+$smarty->assign("page", $_REQUEST['q']);
+$smarty->display("layout.tpl");
+$smarty->clearCache("page", $_REQUEST['q']);
+}
 ?>
