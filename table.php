@@ -8,8 +8,7 @@
         <title>table</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>      
     </head>
-    <body>
-        <?php include "header_menu.php"; ?>        
+    <body>               
         <table class="sample">
             <tr><td>obrazek</td><td>nazev</td><td>popis</td><td>cena</td></tr>
 
@@ -25,7 +24,7 @@
 
         </table>
 
-        <?php include "footer.php"; ?>
+        
 
     </body>
 </html>

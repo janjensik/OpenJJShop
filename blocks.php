@@ -10,7 +10,6 @@
     </head>
     <body>
         <?php
-        include "header_menu.php";
         include "config.php";
 
         foreach ($zbozi as $sada) {
@@ -22,7 +21,7 @@
         ?>
 
         <div style="clear: both"></div>
-        <?php include "footer.php"; ?>
+        
 
     </body>
 </html>

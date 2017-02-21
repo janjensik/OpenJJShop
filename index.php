@@ -1,7 +1,7 @@
 <?php
 
 include "config.php";
-
+include "header_menu.php";
 if (!isset($_REQUEST['q']))
     $_REQUEST['q'] = "home";
 if (in_array($_REQUEST['q'], $menu)) {
@@ -9,4 +9,6 @@ if (in_array($_REQUEST['q'], $menu)) {
 } else {
     include "error404.php";
 }
+
+include "footer.php";
 ?>

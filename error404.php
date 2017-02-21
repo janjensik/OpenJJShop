@@ -10,15 +10,15 @@
     </head>
     <body>
         <?php
-        include "header_menu.php";
+        
         include "config.php";
-        ;
+        
         ?>
         <span class="header"><p>Chyba 404</p><p>Stránka<i><?php echo " $_REQUEST[q] "; ?></i>nenalezena</p></span>
 
 
         <div style="clear: both"></div>
-        <?php include "footer.php"; ?>
+        
 
     </body>
 </html>
